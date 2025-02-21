@@ -1,5 +1,5 @@
 {% set name = "znjson" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/znjson-{{ version }}.tar.gz
-  sha256: 445b4125588e8cb40a75e3e1db22531788631bb4489f1022baec31f411d6472d
+  sha256: b9a5360bc598018ea82972c595b953edc6cc0b3f860fbaff46034266461372ea
 
 build:
   noarch: python
